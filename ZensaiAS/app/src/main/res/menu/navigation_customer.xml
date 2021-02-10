@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navrecommendation"
+        android:title="Rekomendasi"
+        android:icon="@drawable/ic_recommendation"/>
+
+<!--    <item-->
+<!--        android:id="@+id/navmenubook"-->
+<!--        android:title="Menubook"-->
+<!--        android:icon="@drawable/ic_menubook"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/navnotification"-->
+<!--        android:title="Notifikasi"-->
+<!--        android:icon="@drawable/ic_notifications"/>-->
+
+    <item
+        android:id="@+id/navmypage"
+        android:title="Saya"
+        android:icon="@drawable/ic_mypage"/>
+
+</menu>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+
+    tools:context=".UploadProfilePicture">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="75dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Profile Picture"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="5dp"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/paprika"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imagview"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/imagview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:text="Select Image"
+            android:id="@+id/select_img"
+            android:layout_width="300dp"
+            android:background="@drawable/roundedbutton"
+            android:fontFamily="@font/paprika"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="upload image"
+            android:id="@+id/upload_img"
+            android:layout_width="300dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/roundedbutton"
+            android:fontFamily="@font/paprika"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:text="Skip"
+        android:id="@+id/skipuploadbtn"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/paprika"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

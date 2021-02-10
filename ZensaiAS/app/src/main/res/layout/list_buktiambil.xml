@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:textSize="12dp"
+        android:text="Id Cart: " />
+
+    <TextView
+        android:id="@+id/idcart_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView26"
+        android:fontFamily="@font/paprika"
+        android:textSize="12dp"
+        android:text="id" />
+
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:layout_below="@id/textView26"
+        android:textSize="12dp"
+        android:text="Nama Customer (Username): " />
+
+    <TextView
+        android:id="@+id/namacustomer_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idcart_buktiambil"
+        android:layout_toRightOf="@+id/textView27"
+        android:text="nama"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idcart_buktiambil"
+        android:layout_toRightOf="@id/namacustomer_buktiambil"
+        android:textSize="12sp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/paprika"
+        android:text="("/>
+
+
+
+    <TextView
+        android:id="@+id/username_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idcart_buktiambil"
+        android:layout_toRightOf="@id/textView29"
+        android:textSize="12sp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/paprika"
+        android:text="username" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idcart_buktiambil"
+        android:layout_toRightOf="@id/username_buktiambil"
+        android:textSize="12sp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/paprika"
+        android:text=")"/>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView27"
+        android:layout_marginTop="-1dp"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Pembayaran: "
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tgl_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView32"
+        android:layout_below="@id/namacustomer_buktiambil"
+        android:textSize="12sp"
+        android:layout_marginLeft="3dp"
+        android:fontFamily="@font/paprika"
+        android:text="tgl"/>
+
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView32"
+        android:textSize="12sp"
+        android:fontFamily="@font/paprika"
+        android:text="Service: "/>
+
+    <TextView
+        android:id="@+id/service_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView37"
+        android:layout_below="@id/tgl_buktiambil"
+        android:textSize="12sp"
+        android:fontFamily="@font/paprika"
+        android:text="service"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView37"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="Nama Menu: " />
+
+    <TextView
+        android:id="@+id/namamenu_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView30"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:layout_below="@id/service_buktiambil"
+        android:text="nama menu" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView30"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="Quantity: " />
+
+    <TextView
+        android:id="@+id/quantity_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/namamenu_buktiambil"
+        android:layout_toRightOf="@id/textView35"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="quantity" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView35"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="Harga: Rp. " />
+
+    <TextView
+        android:id="@+id/harga_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantity_buktiambil"
+        android:layout_toRightOf="@id/textView38"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="harga" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView38"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="Subtotal: Rp. " />
+
+    <TextView
+        android:id="@+id/subtotal_buktiambil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/harga_buktiambil"
+        android:layout_toRightOf="@id/textView40"
+        android:fontFamily="@font/paprika"
+        android:textSize="12sp"
+        android:text="subtotal" />
+
+</RelativeLayout>

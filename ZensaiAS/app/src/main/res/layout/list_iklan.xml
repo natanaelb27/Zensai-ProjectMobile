@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Pembayaran: " />
+
+    <TextView
+        android:id="@+id/tglpembayaraniklanlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView12"
+        android:fontFamily="@font/paprika"
+        android:text="tgl" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:fontFamily="@font/paprika"
+        android:text="Total Pembayaran: Rp. " />
+
+    <TextView
+        android:id="@+id/totalpembayaraniklanlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tglpembayaraniklanlist"
+        android:fontFamily="@font/paprika"
+        android:layout_toRightOf="@id/textView14"
+        android:text="total" />
+
+    <TextView
+        android:id="@+id/idiklanlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="id"
+        android:layout_below="@id/tglpembayaraniklanlist"
+        android:layout_toRightOf="@id/totalpembayaraniklanlist"
+        android:visibility="invisible"/>
+</RelativeLayout>

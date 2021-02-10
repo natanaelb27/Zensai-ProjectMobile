@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#000000"
+    tools:context=".CheckIklan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/paprika"
+            android:textColor="#FFFFFF"
+            android:text="List iklan-iklan aktif saat ini" />
+
+        <ListView
+            android:id="@+id/listviewcheckiklan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_list"
+            android:nestedScrollingEnabled="true" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".RekomendasiCustomer">
+
+
+    <TextView
+        android:textColor="#FF9800"
+        android:textSize="28dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/paprika"
+        android:text="Hello"/>
+
+
+    <TextView
+        android:id="@+id/txtusername"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/paprika"
+        android:text="Username"/>
+
+    <Button
+        android:id="@+id/btnfoodmenu"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/paprika"
+        android:textAllCaps="false"
+        android:text="Lihat menu makanan"/>
+
+    <Button
+        android:id="@+id/btnpendingorder"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/paprika"
+        android:textAllCaps="false"
+        android:text="Pending Order" />
+
+    <Button
+        android:id="@+id/btniklan_mainmenu"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/paprika"
+        android:textAllCaps="false"
+        android:text="Iklan"/>
+
+    <Button
+        android:id="@+id/btnlogout"
+        android:layout_marginTop="40dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/paprika"
+        android:textAllCaps="false"
+        android:text="Logout" />
+
+</LinearLayout>

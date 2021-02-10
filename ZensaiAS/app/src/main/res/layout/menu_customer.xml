@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="24dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="180dp"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lblnamamakanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="nama"
+                        android:textColor="#F22F11"
+                        android:fontFamily="@font/paprika"
+                        android:textSize="24dp"/>
+
+                    <TextView
+                        android:id="@+id/lbldeskripsimakanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/paprika"
+                        android:text="deskripsi"/>
+
+                    <TextView
+                        android:id="@+id/lblhargamakanan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20dp"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/paprika"
+                        android:text="harga"/>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgmakanan"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:src="@drawable/unagidonburi"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnaddcart"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textSize="15dp"
+                android:background="#FF9800	"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/paprika"
+                android:textAllCaps="false"
+                android:text="Add to Cart"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

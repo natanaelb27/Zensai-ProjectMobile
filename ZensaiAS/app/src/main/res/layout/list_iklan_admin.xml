@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/paprika"
+        android:text="Id Iklan: " />
+    <TextView
+        android:id="@+id/idiklanadminlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView15"
+        android:fontFamily="@font/paprika"
+        android:text="id" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Customer: "
+        android:fontFamily="@font/paprika"
+        android:layout_below="@id/textView15"/>
+    <TextView
+        android:id="@+id/namacustomeradminlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idiklanadminlist"
+        android:fontFamily="@font/paprika"
+        android:layout_toRightOf="@+id/textView16"
+        android:text="nama"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/namacustomeradminlist"
+        android:layout_below="@id/idiklanadminlist"
+        android:fontFamily="@font/paprika"
+        android:layout_marginLeft="3dp"
+        android:text="(" />
+
+    <TextView
+        android:id="@+id/usernamecustomeradminlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView17"
+        android:layout_below="@id/idiklanadminlist"
+        android:fontFamily="@font/paprika"
+        android:text="username" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/usernamecustomeradminlist"
+        android:layout_below="@id/textView15"
+        android:fontFamily="@font/paprika"
+        android:text=")" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView16"
+        android:fontFamily="@font/paprika"
+        android:text="Tanggal Pembayaran: " />
+
+    <TextView
+        android:id="@+id/tanggalpembayaranadminlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textView20"
+        android:layout_below="@id/usernamecustomeradminlist"
+        android:fontFamily="@font/paprika"
+        android:text="tgl" />
+</RelativeLayout>

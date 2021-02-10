@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:padding="10dp"
+    tools:context=".ProsesPembayaran">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="75dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/paprika"
+                android:gravity="center_horizontal"
+                android:text="Upload Bukti Pembayaran"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lbltotalharga_pembayaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Total Pembayaran: Rp."
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="@font/paprika"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:id="@+id/imagebukti"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_below="@+id/imagebukti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:text="Select Image"
+                android:id="@+id/select_imgbukti"
+                android:layout_width="300dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="@font/paprika"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="upload image"
+                android:id="@+id/upload_imgbukti"
+                android:layout_width="300dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/roundedbutton"
+                android:fontFamily="@font/paprika"
+                android:textAllCaps="false"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
